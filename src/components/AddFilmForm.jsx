@@ -68,6 +68,7 @@ const AddFilmForm = ({ onAddFilm }) => {
   };
 
   return (
+    <div className="all">
     <div className="AddFilmForm">
       <h2>Ajouter un Film</h2>
       {error && <p className="error">{error}</p>}
@@ -125,6 +126,7 @@ const AddFilmForm = ({ onAddFilm }) => {
           Réinitialiser
         </button>
       </form>
+    </div>
     </div>
   );
 };

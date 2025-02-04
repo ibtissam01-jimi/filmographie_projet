@@ -1,6 +1,6 @@
 {
   "name": "travail_demander",
-  "homepage": "https://ibtissam01-jimi.github.io/filmographie_project/",
+  "homepage": "https://ibtissam01-jimi.github.io/filmographie_app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
     "dev": "vite",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
